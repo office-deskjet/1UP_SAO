@@ -1,4 +1,165 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 29 0
 EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SAO169_header:Badgelife_sao_connector_v169bis X?
+U 1 1 5CDF3506
+P 2440 3200
+F 0 "X?" V 1975 3200 50  0000 C CNN
+F 1 "Badgelife_sao_connector_v169bis" V 2066 3200 50  0000 C CNN
+F 2 "" H 2440 3400 50  0001 C CNN
+F 3 "" H 2440 3400 50  0001 C CNN
+	1    2440 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CDF516E
+P 4000 3150
+F 0 "R?" H 4070 3196 50  0000 L CNN
+F 1 "R" H 4070 3105 50  0000 L CNN
+F 2 "" V 3930 3150 50  0001 C CNN
+F 3 "~" H 4000 3150 50  0001 C CNN
+	1    4000 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5CDF5510
+P 3400 3640
+F 0 "D?" V 3439 3523 50  0000 R CNN
+F 1 "LED" V 3348 3523 50  0000 R CNN
+F 2 "" H 3400 3640 50  0001 C CNN
+F 3 "~" H 3400 3640 50  0001 C CNN
+	1    3400 3640
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5CDF7644
+P 3800 3640
+F 0 "D?" V 3839 3523 50  0000 R CNN
+F 1 "LED" V 3748 3523 50  0000 R CNN
+F 2 "" H 3800 3640 50  0001 C CNN
+F 3 "~" H 3800 3640 50  0001 C CNN
+	1    3800 3640
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5CDFCAD5
+P 4200 3640
+F 0 "D?" V 4239 3523 50  0000 R CNN
+F 1 "LED" V 4148 3523 50  0000 R CNN
+F 2 "" H 4200 3640 50  0001 C CNN
+F 3 "~" H 4200 3640 50  0001 C CNN
+	1    4200 3640
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5CDFCADF
+P 4600 3640
+F 0 "D?" V 4639 3523 50  0000 R CNN
+F 1 "LED" V 4548 3523 50  0000 R CNN
+F 2 "" H 4600 3640 50  0001 C CNN
+F 3 "~" H 4600 3640 50  0001 C CNN
+	1    4600 3640
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3400 3490 3800 3490
+Connection ~ 3800 3490
+Connection ~ 4200 3490
+Wire Wire Line
+	4200 3490 4600 3490
+Wire Wire Line
+	4000 3300 4000 3490
+Wire Wire Line
+	3800 3490 4000 3490
+Connection ~ 4000 3490
+Wire Wire Line
+	4000 3490 4200 3490
+$Comp
+L Device:R R?
+U 1 1 5CE02173
+P 5500 3150
+F 0 "R?" H 5570 3196 50  0000 L CNN
+F 1 "R" H 5570 3105 50  0000 L CNN
+F 2 "" V 5430 3150 50  0001 C CNN
+F 3 "~" H 5500 3150 50  0001 C CNN
+	1    5500 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5CE0217D
+P 4900 3640
+F 0 "D?" V 4939 3523 50  0000 R CNN
+F 1 "LED" V 4848 3523 50  0000 R CNN
+F 2 "" H 4900 3640 50  0001 C CNN
+F 3 "~" H 4900 3640 50  0001 C CNN
+	1    4900 3640
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5CE02187
+P 5300 3640
+F 0 "D?" V 5339 3523 50  0000 R CNN
+F 1 "LED" V 5248 3523 50  0000 R CNN
+F 2 "" H 5300 3640 50  0001 C CNN
+F 3 "~" H 5300 3640 50  0001 C CNN
+	1    5300 3640
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5CE02191
+P 5700 3640
+F 0 "D?" V 5739 3523 50  0000 R CNN
+F 1 "LED" V 5648 3523 50  0000 R CNN
+F 2 "" H 5700 3640 50  0001 C CNN
+F 3 "~" H 5700 3640 50  0001 C CNN
+	1    5700 3640
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5CE0219B
+P 6100 3640
+F 0 "D?" V 6139 3523 50  0000 R CNN
+F 1 "LED" V 6048 3523 50  0000 R CNN
+F 2 "" H 6100 3640 50  0001 C CNN
+F 3 "~" H 6100 3640 50  0001 C CNN
+	1    6100 3640
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4900 3490 5300 3490
+Connection ~ 5300 3490
+Connection ~ 5700 3490
+Wire Wire Line
+	5700 3490 6100 3490
+Wire Wire Line
+	5500 3300 5500 3490
+Wire Wire Line
+	5300 3490 5500 3490
+Connection ~ 5500 3490
+Wire Wire Line
+	5500 3490 5700 3490
+Wire Wire Line
+	4000 3000 5500 3000
 $EndSCHEMATC
