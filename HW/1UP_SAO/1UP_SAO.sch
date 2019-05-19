@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:1UP_SAO-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -210,7 +211,7 @@ Wire Wire Line
 	2990 3000 4000 3000
 Connection ~ 4000 3000
 Wire Wire Line
-	4000 3000 5500 3000
+	4000 3000 4750 3000
 NoConn ~ 2990 3200
 NoConn ~ 2990 3400
 NoConn ~ 1890 3200
@@ -229,4 +230,18 @@ $EndComp
 Connection ~ 4750 4000
 Wire Wire Line
 	4750 4000 4900 4000
+$Comp
+L power:VCC #PWR?
+U 1 1 5CE15EEF
+P 4750 3000
+F 0 "#PWR?" H 4750 2850 50  0001 C CNN
+F 1 "VCC" H 4767 3173 50  0000 C CNN
+F 2 "" H 4750 3000 50  0001 C CNN
+F 3 "" H 4750 3000 50  0001 C CNN
+	1    4750 3000
+	1    0    0    -1  
+$EndComp
+Connection ~ 4750 3000
+Wire Wire Line
+	4750 3000 5500 3000
 $EndSCHEMATC
