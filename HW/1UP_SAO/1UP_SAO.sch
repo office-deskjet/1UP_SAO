@@ -153,11 +153,6 @@ Wire Wire Line
 Wire Wire Line
 	6100 4000 6100 3790
 Wire Wire Line
-	3400 3780 3400 3790
-Connection ~ 3400 3790
-Wire Wire Line
-	3400 3790 3400 4000
-Wire Wire Line
 	3800 3790 3800 4000
 Wire Wire Line
 	3400 4000 3800 4000
@@ -244,4 +239,6 @@ $EndComp
 Connection ~ 4750 3000
 Wire Wire Line
 	4750 3000 5500 3000
+Wire Wire Line
+	3400 3790 3400 4000
 $EndSCHEMATC
